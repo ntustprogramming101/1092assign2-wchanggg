@@ -123,7 +123,7 @@ void draw() {
       image(restartNormal, 248, 360);
       if( mouseX > button_L && mouseX < button_R && 
            mouseY > button_T && mouseY < button_D){
-           image( startHovered, 248, 360); 
+           image( restartHovered, 248, 360); 
            if(mousePressed){
              gameState = GAME_RUN;
            }}
